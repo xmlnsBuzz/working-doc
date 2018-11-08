@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Well Working Navigation Bar</title>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<link rel="stylesheet" href="bootstrap-4.1.3/dist/css/bootstrap.css" />
+	<link rel="stylesheet" href="css/fontawesome.pro.css" />
+	<link rel="stylesheet" href="css/custom.css" />
+	<link rel="stylesheet" href="css/main.css" />
+	<style>
+			* {font-size: .89rem !important; }
+			body {
+				scroll-behavior: smooth;
+			}
+		</style>
+	
+</head>
+
+<body>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+		<a class="navbar-brand" href="#">NamSeungHwa</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav dropdown mr-auto">
+				<!-- Add 'dropdown' class to 'ul' element above to move first dropdown menu group to right -->
+				<li class="nav-item active">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						학교소개<span class="sr-only">(current)</span>
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="#">교장 인사말</a>
+						<a class="dropdown-item" href="#">교육의 비젼과 전략</a>
+						<a class="dropdown-item" href="#">학교 연혁</a>
+						<a class="dropdown-item" href="#">찾아 오시는 길</a>
+					</div>
+				</li>
+				
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">교육과정 </a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="#">전상회계</a>
+						<a class="dropdown-item" href="#">워드프로세서</a>
+						<a class="dropdown-item" href="#">컴퓨터활용능력</a>
+						<a class="dropdown-item" href="#">정보처리기기</a>
+						<div class="dropdown-divider"></div>
+						<a class="dropdown-item" href="#">컴퓨터그래픽스</a>
+						<a class="dropdown-item" href="#">CAD</a>
+						<div class="dropdown-divider"></div>
+						<a class="dropdown-item" href="#">Web Design</a>
+						<a class="dropdown-item" href="#">Web Programming</a>
+					</div>	
+
+				</li>	
+				<!-- li class="nav-item">
+					<a class="nav-link" href="#">Link</a>
+				</li -->	
+
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						직업훈련과정
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="#">직업훈련과정</a>
+						<a class="dropdown-item" href="#">직업훈련절차</a>
+					</div>
+				</li>
+
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						취업정보
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="#">취업정보</a>
+						<a class="dropdown-item" href="#">구인.구직</a>
+					</div>
+				</li>
+
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						수강가이드
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="#">입영연기</a>
+						<a class="dropdown-item" href="#">병역특례</a>
+					</div>
+				</li>
+
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						갤러리
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="#">상장보기</a>
+						<a class="dropdown-item" href="#">포토갤러리</a>
+						<div class="dropdown-divider"></div>
+						<a class="dropdown-item" href="#">학원생작품</a>
+						<a class="dropdown-item" href="#">포트폴리오</a>
+					</div>
+				</li>
+
+				<li class="nav-item">
+					<a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						동영상
+					</a>
+					<!-- div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="#">Action</a>
+						<a class="dropdown-item" href="#">Another action</a>
+						<div class="dropdown-divider"></div>
+						<a class="dropdown-item" href="#">Something else here</a>
+					</div -->
+				</li>
+
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						커뮤니티
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="#">공지사항</a>
+						<a class="dropdown-item" href="#">질문/답변</a>
+						<div class="dropdown-divider"></div>
+						<a class="dropdown-item" href="#">상담실</a>
+						<a class="dropdown-item" href="#">자유게시판</a>
+					</div>
+				</li>
+
+				<!-- li class="nav-item">
+					<a class="nav-link disabled" href="#">Disabled</a>
+				</li -->
+
+			</ul>
+			<!-- 검색 -->
+			<form class="form-inline my-2 my-lg-0 justify-self-top">
+				<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+				<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+			</form>
+		</div>
+	</nav>
+
+	<div style="width: 100vw;height:200vh;">
+		<img src="https://picsum.photos/2000/2000?random" alt="" />
+		<img src="https://picsum.photos/2000/2000?image=1" alt="" />
+	</div>
+
+	<!-- Optional JavaScript -->
+	<script src="js/intellisense.js"></script>
+	<script src="js/popover.js"></script>
+	<script src="js/base.js"></script>
+	<!-- intellisense.js first, then popover.js, and then base.js JS sequentially-->
+
+
+</body>
+
+</html>

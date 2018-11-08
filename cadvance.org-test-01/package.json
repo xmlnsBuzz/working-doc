@@ -1,0 +1,23 @@
+{
+  "name": "bootstrap",
+  "version": "1.0.0",
+  "description": "남승화 직업전문학교 홈페이지",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/buzzLab/webapps.git"
+  },
+  "author": "xmlnsbuzz@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/buzzLab/webapps/issues"
+  },
+  "homepage": "https://gitlab.com/buzzLab/webapps#README",
+  "devDependencies": {
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.4"
+  }
+}
