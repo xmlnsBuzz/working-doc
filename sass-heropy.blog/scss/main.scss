@@ -1,0 +1,36 @@
+* font-family: 나눔고딕, NanumGothic;
+
+.list {
+	width: 100px;
+	float: left;
+		li {
+		color: #f00;
+		background-image: url//('//picsum.photos/g/10/300');
+		&:last-child {
+			margin-right: -10px;
+		}
+	}
+}
+/*
+css에 사용하는 정규 comment 형식을 사용하면 compile된 .css 에 comment도 포함된다.
+*/
+
+// table cell text size 1em
+
+table.w3-table-all {
+
+	th {
+		font-size: 1em;
+	}
+	td {
+		font-size: 0.9rem;
+		color: #333;
+		font-weight: 400;
+		
+	}
+}
+
+
+
+
+ 
